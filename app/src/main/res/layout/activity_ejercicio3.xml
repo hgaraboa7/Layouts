@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio3"
+    android:collapseColumns="0"
+
+    >
+
+    <TableRow>
+        <Button></Button>
+        <Button ></Button>
+        <Button android:width="175dp"></Button>
+        <Button></Button>
+    </TableRow>
+    <TableRow>
+        <Button></Button>
+        <Button></Button>
+        <Button></Button>
+
+
+
+    </TableRow>
+    <TableLayout>
+        <TableRow>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+
+
+
+         >
+        <TableRow>
+            <Button android:visibility="invisible"></Button>
+            <Button></Button>
+            <Button></Button>
+
+        </TableRow>
+        <TableRow>
+            <Button android:visibility="invisible">></Button>
+            <Button></Button>
+            <Button></Button>
+
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:collapseColumns="0"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</TableLayout>
