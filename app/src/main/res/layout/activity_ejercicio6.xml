@@ -99,15 +99,18 @@
         tools:layout_editor_absoluteY="359dp" />
 
 
-    <RadioGroup
-        android:id="@+id/rbg1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp">
+            <RadioGroup
+                android:id="@+id/rbg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/radioButton"
@@ -133,8 +136,9 @@
                 android:text="Otro"
                 tools:layout_editor_absoluteX="239dp"
                 tools:layout_editor_absoluteY="382dp" />
+            </RadioGroup>
         </LinearLayout>
-    </RadioGroup>
+
 
     <Button
         android:id="@+id/button3"
