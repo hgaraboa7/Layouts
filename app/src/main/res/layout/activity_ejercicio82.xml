@@ -44,7 +44,7 @@
         android:layout_width="210dp"
         android:layout_height="21dp"
         android:layout_marginBottom="2dp"
-        android:text="Indica tus apellidos"
+        android:text="Indica tus apellidos: "
         app:layout_constraintBottom_toTopOf="@+id/apellido"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
