@@ -36,10 +36,18 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/botonintent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Llamar a la otra actividad"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonintent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

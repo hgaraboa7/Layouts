@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EjemplosLayout"
         tools:targetApi="31">
         <activity
+            android:name=".Ejercicio8_2"
+            android:exported="false" />
+        <activity
             android:name=".Ejercicio8"
             android:exported="true" />
         <activity
