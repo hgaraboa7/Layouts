@@ -35,6 +35,14 @@
       </SelectionState>
       <SelectionState runConfigName="Ejercicio9">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-10-08T14:42:56.849754500Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\hector.garaboacasas\.android\avd\Pixel_7_API_34_11.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
       </SelectionState>
     </selectionStates>
   </component>

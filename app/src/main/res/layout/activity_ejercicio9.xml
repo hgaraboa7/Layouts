@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
     <Button
-        android:id="@+id/botonintent"
+        android:id="@+id/irOtraActividad"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Llamar a la otra actividad"
@@ -51,10 +51,10 @@
         android:text="Resultado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonintent" />
+        app:layout_constraintTop_toBottomOf="@+id/irOtraActividad" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/irTelefono"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Teléfono"
@@ -63,20 +63,20 @@
         app:layout_constraintTop_toBottomOf="@+id/resultado" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/irNavegador"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Navegador"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/irTelefono" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/irLocalizacion"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Localización"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/irNavegador" />
 </androidx.constraintlayout.widget.ConstraintLayout>
